@@ -1,7 +1,6 @@
 from sys import argv
 from os import getcwd,path
 from subprocess import Popen as run
-from subprocess import PIPE
 from keyboard import is_pressed
 from colorama import Fore,init
 from time import sleep
