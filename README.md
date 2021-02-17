@@ -1,5 +1,5 @@
 # how to install
-open terminal as administrator and type pip install pyguard42  
+open terminal as administrator and type ```pip install pyguard42 ``` 
 or
 add this file to system path and run python,js,cpp files
 
