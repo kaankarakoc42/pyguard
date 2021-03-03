@@ -11,12 +11,12 @@ https://pypi.org/project/pyguard42/
 for auto start you can press twice ctrl-s then your script will restart
 if you click to terminal and press ctrl-c your program will stop
 
-[python example](https://user-images.githubusercontent.com/56826739/109732339-0c9c9580-7bce-11eb-92fa-b48d6b570f93.mp4)
+![python example](https://user-images.githubusercontent.com/56826739/109732339-0c9c9580-7bce-11eb-92fa-b48d6b570f93.mp4)
 
 
 # Multi Language Support
 
-[multi lang](https://user-images.githubusercontent.com/56826739/109732479-4cfc1380-7bce-11eb-8faf-0734ccf7a125.mp4)
+![multi lang](https://user-images.githubusercontent.com/56826739/109732479-4cfc1380-7bce-11eb-8faf-0734ccf7a125.mp4)
 
 
 
