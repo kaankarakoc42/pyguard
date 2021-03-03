@@ -58,11 +58,12 @@ class pyguard:
        self.proccess=Popen(f'"{getcwd()}/{file.split(".")[0]}.exe"')
    
    def runTimeExists(self,file):
-       if not self.runtimes[file.split(".")[1]] in run(["path"], capture_output=True, text=True,shell=True).stdout:
-          if self.runtimes[file.split(".")[1]]=="g++" and "mingw" in run(["path"], capture_output=True, text=True,shell=True).stdout:
+       system_path=run(["path"], capture_output=True, text=True,shell=True).stdout.lower()
+       if not self.runtimes[file.split(".")[1]] in system_path:
+          if self.runtimes[file.split(".")[1]]=="g++" and "mingw" in system_path:
              pass
           else:
-             print(Fore.RED+"[-] you dont have "+{self.runtimes[file.split(".")[1]]}+" runTime please install"+Fore.WHITE)
+             print(Fore.RED+f"[-] you dont have {self.runtimes[file.split('.')[1]]} runTime please install"+Fore.WHITE)
              exit()
 
        
